@@ -1,11 +1,11 @@
 export const getTotalSupply =
 // REPLACE THIS WITH YOUR CONTRACT NAME + ADDRESS
 `
-import BottomShot from 0x7b6adb682517f137;
+import ExperienceV1 from 0xf4958a0f78c46964;
 
 pub fun main(): UInt64 {
 
-    return BottomShot.totalSupply;
+    return ExperienceV1.totalSupply;
 
 }
 `
